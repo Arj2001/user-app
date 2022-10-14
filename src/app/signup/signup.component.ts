@@ -38,6 +38,19 @@ export class SignupComponent implements OnInit {
       "confirmPassword":this.confirmPassword,
     }
     console.log(data)
+    this.name = ""
+    this.phone = ""
+    this.gender = ""
+    this.email = ""
+    this.address = ""
+    this.pincode = ""
+    this.bloodGroup = ""
+    this.dateOfBirth = ""
+    this.parentName = ""
+    this.age = ""
+    this.password = ""
+    this.confirmPassword = ""
+    
   }
 
   ngOnInit(): void {

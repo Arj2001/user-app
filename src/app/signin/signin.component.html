@@ -9,10 +9,10 @@
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="label-control" name="password" [(ngModel)]="password">Password</label>
-                    <input type="text" class="form-control">
+                    <input type="password" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button class="btn btn-success" (click)="getValues()">Login</button>                    
+                    <button class="btn btn-success" (click)="getValues()" routerLink="/dashboard">Login</button>                    
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <a routerLink="/signup" href="" >New users click here</a>

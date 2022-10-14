@@ -60,14 +60,14 @@
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <label for="" class="label-control" >Create yout Password</label>
-                    <input type="text" class="form-control" name="password" [(ngModel)]="password">
+                    <input type="password" class="form-control" name="password" [(ngModel)]="password">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <label for="" class="label-control" >Confirm your password</label>
-                    <input type="text" class="form-control" name="confirmPassword" [(ngModel)]="confirmPassword">
+                    <input type="password" class="form-control" name="confirmPassword" [(ngModel)]="confirmPassword">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button class="btn btn-success" (click)="getValues()">Register</button>                    
+                    <button class="btn btn-success" (click)="getValues()" >Register</button>                    
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <a routerLink="/" href="" >To sign in click here</a>
