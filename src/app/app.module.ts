@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
+import { DashboradComponent } from './dashborad/dashborad.component';
 
 const addRoute :Routes = [
   {
@@ -14,6 +15,9 @@ const addRoute :Routes = [
   },
   {
     path:"signup",component:SignupComponent
+  },
+  {
+    path:"dashboard",component:DashboradComponent
   }
 ]
 
@@ -21,7 +25,8 @@ const addRoute :Routes = [
   declarations: [
     AppComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    DashboradComponent
   ],
   imports: [
     BrowserModule,
